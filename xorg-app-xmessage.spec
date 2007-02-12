@@ -1,5 +1,5 @@
 Summary:	xmessage application
-Summary(pl.UTF-8):   Aplikacja xmessage
+Summary(pl.UTF-8):	Aplikacja xmessage
 Name:		xorg-app-xmessage
 Version:	1.0.1
 Release:	1
