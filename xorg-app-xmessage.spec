@@ -1,5 +1,5 @@
 Summary:	xmessage application
-Summary(pl):	Aplikacja xmessage
+Summary(pl.UTF-8):   Aplikacja xmessage
 Name:		xorg-app-xmessage
 Version:	1.0.1
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xmessage application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xmessage.
 
 %prep
