@@ -1,5 +1,5 @@
-Summary:	xmessage application
-Summary(pl.UTF-8):	Aplikacja xmessage
+Summary:	xmessage application - display a message or query in a window
+Summary(pl.UTF-8):	Aplikacja xmessage - wyświetlanie komunikatu lub zapytania w oknie
 Name:		xorg-app-xmessage
 Version:	1.0.2
 Release:	1
@@ -18,10 +18,21 @@ Requires:	xorg-lib-libXt >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xmessage application.
+The xmessage program displays a window containing a message from the
+command line, a file, or standard input. Along the lower edge of the
+message is row of buttons; clicking the left mouse button on any of
+these buttons will cause xmessage to exit. Which button was pressed is
+returned in the exit status and, optionally, by writing the label of
+the button to standard output.
 
 %description -l pl.UTF-8
-Aplikacja xmessage.
+Program xmessage wyświetla okienko zawierające komunikat z linii
+poleceń, pliku lub standardowego wejścia. Wzdłuż dolnej krawędzi
+komunikatu znajduje się wiersz przycisków; kliknięcie lewym klawiszem
+myszy na dowolnym z przycisków powoduje zakończenie xmessage, To,
+który przycisk został wciśnięty, jest zwracane w kodzie wyjścia oraz,
+opcjonalnie, poprzez wypisanie etykiety przycisku na standardowym
+wyjściu.
 
 %prep
 %setup -q -n xmessage-%{version}
