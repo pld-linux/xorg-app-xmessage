@@ -1,12 +1,12 @@
 Summary:	xmessage application
 Summary(pl.UTF-8):	Aplikacja xmessage
 Name:		xorg-app-xmessage
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xmessage-%{version}.tar.bz2
-# Source0-md5:	b3674c3a00a089764d86aa94e257ccec
+# Source0-md5:	b4b561ef11fd184989a6062962e86748
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
