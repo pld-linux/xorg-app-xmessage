@@ -2,7 +2,7 @@ Summary:	xmessage application - display a message or query in a window
 Summary(pl.UTF-8):	Aplikacja xmessage - wyświetlanie komunikatu lub zapytania w oknie
 Name:		xorg-app-xmessage
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xmessage-%{version}.tar.bz2
