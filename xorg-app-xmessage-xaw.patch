@@ -1,0 +1,19 @@
+commit 1c6e1c795774e80c8fac489671906be2a3d8641d
+Author: James Cloos <cloos@jhcloos.com>
+Date:   Wed Aug 20 10:32:52 2008 -0400
+
+    xaw8 is gone, use xaw7
+
+diff --git a/configure.ac b/configure.ac
+index e2cebc8..89a8cf5 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -32,7 +32,7 @@ AC_PROG_CC
+ AC_PROG_INSTALL
+ 
+ # Checks for pkg-config packages
+-XAW_CHECK_XPRINT_SUPPORT(XMESSAGE)
++PKG_CHECK_MODULES(XMESSAGE, xaw7)
+ AC_SUBST(XMESSAGE_CFLAGS)
+ AC_SUBST(XMESSAGE_LIBS)
+ 
