@@ -2,11 +2,12 @@ Summary:	xmessage application - display a message or query in a window
 Summary(pl.UTF-8):	Aplikacja xmessage - wyświetlanie komunikatu lub zapytania w oknie
 Name:		xorg-app-xmessage
 Version:	1.0.2
-Release:	2
+Release:	3
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xmessage-%{version}.tar.bz2
 # Source0-md5:	b4b561ef11fd184989a6062962e86748
+Patch0:		%{name}-xaw.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -36,6 +37,7 @@ wyjściu.
 
 %prep
 %setup -q -n xmessage-%{version}
+%patch0 -p1
 
 %build
 %{__aclocal}
